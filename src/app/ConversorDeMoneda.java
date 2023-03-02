@@ -1,5 +1,8 @@
 package app;
 
+
+import javax.swing.JOptionPane;
+
 import model.Conversor;
 
 public class ConversorDeMoneda {
@@ -7,6 +10,8 @@ public class ConversorDeMoneda {
 	public static void main(String[] args) {
 		
 		Conversor conversor = new Conversor();
+		
+		JOptionPane.showMessageDialog(null, "Seleccione una opcion de conversion", "Menu", JOptionPane.WARNING_MESSAGE);
 		
 		double valorDolar = conversor.convertirAPeso("dolar", 1);
 		double valorYen = conversor.convertirAPeso("yen japones", 1);

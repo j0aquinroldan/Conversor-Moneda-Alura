@@ -12,11 +12,12 @@ public class Conversor {
 	}
 	
 	private void inicializarTasaPeso() {
-		this.tasaPeso.put("dolar", 195.30);
-		this.tasaPeso.put("euro", 207.04);
-		this.tasaPeso.put("libra esterlina", 234.81);
-		this.tasaPeso.put("yen japones", 1.45);
-		this.tasaPeso.put("won sul-coreano", 0.15);
+		this.tasaPeso.put("Peso", 1d);
+		this.tasaPeso.put("Dolar", 195.30);
+		this.tasaPeso.put("Euro", 207.04);
+		this.tasaPeso.put("Libra Esterlina", 234.81);
+		this.tasaPeso.put("Yen Japones", 1.45);
+		this.tasaPeso.put("Won Sul-Coreano", 0.15);
 	}
 	
 	public double convertirAPeso(String moneda, double valor) {
