@@ -1,7 +1,7 @@
 # Conversor-Moneda-Alura
 <em>Conversor de Moneda</em>
 
-##Este es un conversor de monedas que por el momento funciona con las siguientes divisas:
+//Este es un conversor de monedas que por el momento funciona con las siguientes divisas:
 
 - `Peso Argentino`
 - `Dolar`
