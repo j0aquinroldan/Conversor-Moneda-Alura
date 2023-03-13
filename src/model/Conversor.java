@@ -21,7 +21,10 @@ public class Conversor {
 	}
 	
 	public double convertirAPeso(String moneda, double valor) {
+		
+		
 		double tasa = this.tasaPeso.get(moneda);
+		
 		return valor *tasa;
 	}
 	
