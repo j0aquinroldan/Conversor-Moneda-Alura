@@ -1,5 +1,4 @@
-# Conversor-Moneda-Alura
-<em>Conversor de Moneda</em>
+# Conversor de Moneda
 
 Este es un conversor de monedas que por el momento funciona con las siguientes divisas:
 
